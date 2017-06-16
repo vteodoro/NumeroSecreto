@@ -1,5 +1,5 @@
 def boas_vindas
-	puts "Qual e o teu nome? "
+	puts "Qual é o teu nome? "
 	nome = gets
 	puts
 	puts "Bem vindo(a) ao jogo #{nome.strip}!"
@@ -7,7 +7,7 @@ def boas_vindas
 end
 
 def escolhendo_numero_secreto
-	puts "Numero secreto entre 0 e 200! Que tal adivinhar qual e o numero?"
+	puts "Número secreto entre 0 e 200! Que tal adivinhar qual é o número?"
 	n_secreto_local = 175
 	n_secreto_local
 end
@@ -15,7 +15,7 @@ end
 def pede_um_numero(chutes, cont, limite_tent)
 	puts
 	puts "Tentativa #{cont.to_s} de #{limite_tent.to_s} : "
-	puts "Digite um numero: "
+	puts "Digite um número: "
 	chute = gets
 	chute.to_i
 end
